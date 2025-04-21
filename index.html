@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Ellen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f8f6f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #e74c3c;
+    }
+
+    nav {
+      display: flex;
+      gap: 2rem;
+      font-size: 0.9rem;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3rem;
+      flex: 1;
+    }
+
+    .content {
+      max-width: 600px;
+    }
+
+    .tag {
+      background: #333;
+      color: #fff;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.8rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 300;
+      margin: 0.5rem 0 1.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .socials {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .socials a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .button {
+      background: #e74c3c;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #c0392b;
+    }
+
+    .profile-img {
+      max-width: 350px;
+      width: 100%;
+      border-radius: 100%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+      }
+
+      .socials {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Meu Portfólio</div>
+    <nav>
+      <span>📧 ellenlira73@gmail.com</span>
+      <a href="#">Trabalhos</a>
+      <a href="#">Currículo</a>
+      <a href="#">Projetos</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content">
+      <span class="tag">Quem é Ellen?</span>
+      <h1>Ellen Lira</h1>
+      <h2>Educadora em T.I</h2>
+      <p>
+        Oi! Me chamo Ellen Lira e sou apaixonada por tecnologia. Comecei minha jornada como estagiária na área de suporte técnico e, desde então, venho me aventurando por diferentes caminhos na TI. Já trabalhei com desenvolvimento no-code, fui instrutora da ferramenta Maker, dei aulas de introdução à programação pra pessoas com pouco acesso à tecnologia e também atuei com análise de requisitos. Gosto de aprender, ensinar e estar sempre envolvida em projetos que realmente façam sentido pra quem usa.
+
+
+      </p>
+
+      <div class="socials">
+        <a href="#">🔗</a>
+        <a href="#">🐙</a>
+        <a href="#">🐦</a>
+      </div>
+
+      <a href="/index2.html" class="button">Dá um pulinho aqui!</a>
+    </div>
+
+    <img src="/imagens/meu perfil.png" alt="Imagem de Perfil" class="profile-img">
+
+  </main>
+
+  <footer>
+    © 2025 Ellen Lira. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
